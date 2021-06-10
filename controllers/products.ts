@@ -113,6 +113,7 @@ const updateProduct = async ({ params, request,response }: { params: {id:string}
  *  @route DELETE /api/v1/products/:id
  */
 const deleteProduct = ({ response }: { response: any }) => {
+    console.log('delete product')
 
 }
 
